@@ -6,7 +6,7 @@
   color: #ffffff;
   text-align: center;
 
-  background-color: #00161c;
+  background-color: var(--background-llamada-mobile);
 
   padding-top: 12.25rem;
   padding-bottom: 2.5rem;
@@ -42,5 +42,10 @@
   .llamada__titulo {
     font-size: 3.25rem;
     margin-bottom: 2rem;
+  }
+}
+@media screen and (min-width: 768px) {
+  .llamada__texto {
+    max-width: 600px;
   }
 }

@@ -48,3 +48,6 @@
     display: block;
   }
 }
+.sobre-nosotros__imagen {
+  display: none;
+}

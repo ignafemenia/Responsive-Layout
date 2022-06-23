@@ -104,6 +104,11 @@
 .tarjetas__boton--mega {
   border-color: var(--planes-card-mega);
 }
+@media screen and (min-width: 768px) {
+  .tarjetas {
+    max-width: 400px;
+  }
+}
 @media screen and (min-width: 1024px) {
   .planes__tarjetas {
     flex-direction: row;
@@ -114,8 +119,9 @@
     max-width: 300px;
   }
 }
-@media screen and (min-width: 768px) {
-  .tarjetas {
-    max-width: 400px;
+@media screen and (min-width: 1024px) {
+  .container {
+    padding-left: calc((100%-940px) / 2);
+    padding-right: calc((100%-940px) / 2);
   }
 }
